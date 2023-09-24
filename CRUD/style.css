@@ -1,0 +1,181 @@
+/*--------------------Header--------------------------*/
+.navbar-brand{
+    margin-left: 5%;
+    margin-right: 55%;
+    font-size: 30px;
+}
+.nav-item{
+    padding-right: 15%;
+}
+@media only screen and (min-width: 250px) and (max-width : 520px){
+    .navbar-brand{
+        margin-left: 2%;
+        margin-right: 21%;
+        font-size: 20px;
+    }
+    .nav-item{
+        padding-right: 15%;
+        padding-left: 2%;
+    }
+}
+/*--------------------footer--------------------------*/
+#footer{
+    margin-top: 5%;
+    position: sticky;
+    display: block;
+}
+@media only screen and (min-width: 250px) and (max-width : 520px){
+    #footer{
+        margin-top: 28%;
+    }
+}
+#home #footer{
+    margin-top: 6.5%;
+    position: sticky;
+    display: block;
+
+}
+/*--------------------Home--------------------------*/
+#Screen{
+    height: 500px;
+    width: 100%;
+    background-image: url(homewall.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width: 250px) and (max-width : 520px){
+    #Screen{
+        height: 400px;
+        width: 100%;
+        background-image: url(homewall.png);
+        background-size: contain;
+    }
+}
+/*--------------------login--------------------------*/
+#leftlogin{
+    margin-top: 5%;
+    height: 500px;
+    background-image: url(login.svg);
+    background-size: cover;
+}
+#rightlogin{
+    margin-top: 15%;
+}
+#rightlogin a, #regright a{
+    padding-left: 5%;
+}
+@media only screen and (min-width: 250px) and (max-width : 520px){
+    #leftlogin{
+        height: 200px;
+        width: 100%;
+        background-image: url(login.svg);
+        background-size: contain;
+    }
+    #rightlogin{
+        margin-top: 5%;
+    }
+}
+/*--------------------registration--------------------------*/
+#regleft{
+    margin-top: 5%;
+    height: 500px;
+    background-image: url(registration.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#regright{
+    margin-top: 8%;
+}
+@media only screen and (min-width: 250px) and (max-width : 520px){
+    #regleft{
+        margin-top: 5%;
+        height: 200px;
+        background-image: url(registration.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #regright{
+        margin-top: 8%;
+    }
+}
+/*--------------------users--------------------------*/
+#usersleft{
+    margin-top: 5%;
+    height: 500px;
+    background-image: url(users.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#usersright{
+    margin-top: 3%;
+}
+#male1{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 3%;
+}
+#male , #female{
+    height: 80px;
+    width: 80px;
+}
+#female{
+    margin-left: 10%;
+}
+@media only screen and (min-width: 250px) and (max-width : 520px){
+    #usersleft{
+        margin-top: 2%;
+        height: 200px;
+        background-image: url(users.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #usersright{
+        margin-top: 5%;
+    }
+    #male , #female{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 1%;
+    }
+    #male1{
+        display: none;
+    }
+}
+/*--------------------view&delete--------------------------*/
+#updatedeleteleft{
+    margin-top: 5%;
+    height: 500px;
+    background-image: url(update&delete.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#updatedeleteright{
+    margin-top: 1%;
+}
+@media only screen and (min-width: 250px) and (max-width : 520px){
+    #updatedeleteleft{
+        margin-top: 2%;
+        height: 200px;
+        background-image: url(update&delete.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #updatedeleteright{
+        margin-top: 5%;
+    }
+    #male , #female{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 1%;
+    }
+    #male1{
+        display: none;
+    }
+}
+/*--------------------update&delete--------------------------*/
