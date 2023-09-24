@@ -1,0 +1,88 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.logo2{
+    font-size: 55px;
+    font-weight: 800;
+    background-color: white;
+    position: relative;
+    top: -36px;
+    left: 300px;
+    z-index: 7;
+}
+.about{
+    width: 100%;
+    height: 950px;
+    position: relative;
+    z-index: 6;
+}
+#two{
+    position: relative;
+    display: inline-block;
+    left: 152px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+#third{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    width: 900px;
+    right: 92px;
+}
+.Register2{
+  align-items: center;
+  appearance: button;
+  background-color: #004395;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+  left: 152px;
+  top: 110px;
+}
+
+.Register2{
+  background-color: #004395;
+}
+
+.Register2{
+  background-color: #004395;
+}
+
+.right{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(255, 226, 189);
+    float: left;
+    background-image: url(keyboard.jpg);
+    background-size: cover;
+}
+.link{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 200px;
+    background-color: antiquewhite;
+    background-image: url(link.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codejam</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <!------------------------------NavBar------------------------------------------------------>
+  <body>
+    <div class="codejam">
+      <div class="flexbox">
+        <div class="logo">code jam</div>
+      </div>
+      <div class="element">About</div>
+      <div class="element">Schedule</div>
+      <div class="element">FAQ</div>
+      <div class="element">Rules</div>
+      <div class="element">Archive</div>
+    </div>
+
+    <!------------------------------Body------------------------------------------------------>
+
+    <div class="body">
+      <div class="left">
+        <h1 id="one">An update on Coding<br />Competitions</h1>
+        <br />
+        <p id="first">
+          Code Jam will not continue as planned, we invite you to participate in
+          After nearly 20 years of Code Jam, it's time to say goodbye. While our
+          Competitions' Farewell Round on Saturday, April 15 at 14:00 UTC.
+        </p>
+        <p id="second">
+          and Kick Start-style problems of different levels of difficulty. The
+          Farewell Round will consist of 4 concurrent rounds with Code Jam
+          understand more about the Farewell Round. Register today, mark your
+          calendars and check out the Rules and FAQ to
+        </p>
+        <button class="Register" role="button">Register</button>
+      </div>
+      <div class="right"></div>
+      <span class="logo2">code jam</span>
+      <hr class="division"/>
+<!------------------------------About------------------------------------------------------>
+        <div class="about">
+            <h1 id="two">What's involved?</h1>
+            <p id="third">
+            Code Jam is Google's longest running global coding competition, where
+            programmers of all levels put their skills to the test. Competitors
+            work their way through a series of online algorithmic puzzles to earn
+            a spot at the World Finals, all for a chance to win the championship
+            title and $15,000 USD.
+            </p>
+            <button class="Register2" role="button">Learn more</button>
+            <div class="link">
+            <a href="https://www.youtube.com/watch?v=ccIxnSZ9SKE"></a>
+            </div>
+        </div>
+<!------------------------------Footer------------------------------------------------------>
+          <div class="footer">
+<!------------------------------Fastooter------------------------------------------------------>            
+            <div class="fastfooter">
+              <div class="fastfooterleft1"></div>
+              <div class="fastfooterleft2"></div>
+              <div class="fastfooterright">
+                <h1 id="three">Looking to practice?</h1>
+                <h4 id="four">Try your hand at past Code Jam problems to prepare for the next round.</h4>
+                <button class="Register3" role="button">View archive</button>
+              </div>
+            </div>
+<!------------------------------secondfooter------------------------------------------------------>
+            <div class="secondfooter">
+              <div class="footele"><h4 class="five">2021</h4><p id="fouth">Problems & Scoreboards</p><p id="fifth">Virtual Finals</p></div>
+              <div class="footele"><h4 class="five">2020</h4><p id="fouth">Problems & Scoreboards</p><p id="fifth">Virtual Finals</p></div>
+              <div class="footele"><h4 class="five">2022</h4><p id="fouth">Problems & Scoreboards</p><p id="fifth">Virtual Finals</p></div>
+              <div class="footele"><h4 class="five">2019</h4><p id="fouth">Problems & Scoreboards</p><p id="fifth">Finals in San</p><p id="fifth">Francisco, USA</p></div>
+            </div>
+            <div class="thirdfooter">
+              <span id="Follow">Follow Us</span>
+              <a href="https://twitter.com" target="_blank"><img class="icons" src="twitte_icon.png"></a>
+              <a href="https://facebook.com"target="_blank"><img class="icons" src="facbook_icon.png"></a>
+              <a href="https://youtube.com" target="_blank"><img class="icons" src="youtube_icon.png"></a>
+              <a href="https://groups.google.com" target="_blank"><img class="icons" src="Google-Groups_icon.png"></a>
+              <hr class="divisionsecond"/>
+              <h4 class="six">Looking for more challenges?</h4>
+              <h5 class="seven">Code Jam is one of the three competitions that Google holds for participants of all skill levels. Find your challenge.</h5>
+              <button class="Register4" role="button">View other Competitions</button>
+            </div>
+          </div>
+          <a href="https://www.marutisuzuki.com/" target="_blank"></a>
+          
+          <script>
+            window.addEventListener('scroll',function() {
+            let Yoffset = window.pageYOffset;
+            console.log(Yoffset);
+            if (Yoffset >= 200) {
+                document.querySelector('.codejam').style.background = "red";
+            }
+            else{
+                document.querySelector('.codejam').style.background = "white";
+            }
+            });
+          </script>
+  </body>
+</html>

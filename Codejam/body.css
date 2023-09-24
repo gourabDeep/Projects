@@ -1,0 +1,90 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.body{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    position: relative;
+    z-index: 9;
+}
+.left{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+#one{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 70px;
+    font-size: 50px;
+    font-weight: 400;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+#first{
+    width: 64%;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+#second{
+    width: 64%;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+/* CSS */
+.Register{
+  align-items: center;
+  appearance: button;
+  background-color: #004395;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+  left: 150px;
+  top: 60px;
+}
+
+.Register{
+  background-color: #004395;
+}
+
+.Register{
+  background-color: #004395;
+}
+.right{
+    height: 600px;
+    width: 50%;
+    background-color: rgb(255, 226, 189);
+    float: left;
+    background-image: url(keyboard.jpg);
+    background-size: cover;
+}
+.division{
+    width: 99%;
+    border: 4px solid red;
+    position: relative;
+    top: -73px;
+}
